@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Snake</title>
+        <link rel="stylesheet" href="snake.css">
+        <script src="snake.js"></script>
+        <script src="https://kit.fontawesome.com/50d3628da5.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <main>
+
+            <h1>Snake Game</h1>
+            <div id="htp">
+                <img src="htpy.png" alt="">
+                <p>Up Arrow ↑</p>
+                <p>Down Arrow ↓</p>
+                <p>Right Arrow →</p>
+                <p>Left Arrow ←</p>
+                <img src="Akeys.png" id="keys" alt=""></div>
+
+            <div id="container">
+                <canvas id="board"></canvas>
+                <div id="resetContainer">
+                <input id="reset" type="button"onclick="resetFunction()"><i id="icon" class="fa-solid fa-rotate"></i>
+                </div>
+            </div>
+
+            
+           
+
+            <div id="scores">
+                <h1>Score: <span id="score">0</span></h1>
+                <br>
+                <h1>Highest <br> Score:  <span id="Hscore">0</span></h1>
+
+            </div>
+
+        </main>
+    </body>
+</html>
